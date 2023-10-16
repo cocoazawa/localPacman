@@ -1,22 +1,33 @@
 # LocalPacman
 
-![Pytest](https://github.com/cocoazawa/localPacman/actions/workflows/main.yml/badge.svg)
+![Pytest](https://github.com/cocoazawa/localPacman/actions/workflows/python-app.yml/badge.svg)
 
 Made by Pete Kou @ Japan
 
-
 ## Licensing Notes
 
+This project is licensed under the MIT License, and the pygame library (which this project uses) is licensed using the GNU Lesser General Public License version 2.1.  
 
+No license infringements were intended, and the project is meant to respect the LGPL v2.1 license that the pygame library utilizes.  
 
+A copy of the MIT License is attached with the project, and the GNU Lesser General Public License version 2.1 is available at the [Open Source Initiative's licenses website](https://opensource.org/license/lgpl-2-1/) or at the [GNU's license website](https://www.gnu.org/licenses/old-licenses/lgpl-2.1.en.html#SEC1).
 
 ## Code Structure
 
-The code is mainly structured like this:
+The code is mainly structured like this (so-far):
+.
+├── main.py
+│   ├── Import CPM (Core Pacman Movement)
+│   ├── Import pygame (pygame, duh)
+│   ├── Rendering the window
+│   ├── Rendering pacman
+│   └── Processing Movements (sends coordinates to CPM)
+└── CPM.py
+    ├── turnDetect (checks if the turn is valid)
+    └── collisionPrevent (sends kill signal if the pacman collides)
 
 
-
-## NJunctions Coordinates
+### NJunctions Coordinates
 
 ```python
 """
