@@ -1,5 +1,7 @@
 # LocalPacman
 
+![Pytest](https://github.com/cocoazawa/localPacman/actions/workflows/main.yml/badge.svg)
+
 Made by Pete Kou @ Japan
 
 
