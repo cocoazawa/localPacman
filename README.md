@@ -2,7 +2,7 @@
 
 ![Pytest](https://github.com/cocoazawa/localPacman/actions/workflows/python-app.yml/badge.svg)  
 
-Made by Pete Kou @ Japan  
+Made by cocoazawa @ Japan  
 
 
 ## Licensing Notes
